@@ -11,7 +11,6 @@ import Reviews from './components/Reviews/Reviews';
 function App() {
   return (
     <>
-      <h1 className='text-2xl'>Ninth Assignment Car Review Pro</h1>
       <Navbar></Navbar>
 
       <Routes>
