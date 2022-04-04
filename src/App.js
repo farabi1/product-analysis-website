@@ -6,7 +6,7 @@ import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
-      <h1 className='text-2xl'>Ninth Assignment Car Review</h1>
+      <h1 className='text-2xl'>Ninth Assignment Car Review Pro</h1>
 
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
