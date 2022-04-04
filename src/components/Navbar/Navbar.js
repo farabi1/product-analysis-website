@@ -1,9 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+import './Navbar.css'
 
 const Navbar = () => {
     return (
-        <div>
-            <h1>this is Navbar </h1>
+        <div className='text-center text-blue-700 text-2xl'>
+            <Link className='m-2' to='/'>Home</Link>
+            <Link className='m-2' to='/reviews'>Reviews</Link>
+            <Link className='m-2' to='/dashboard'>Dashboard</Link>
+            <Link className='m-2' to='/blogs'>Blogs</Link>
+            <Link className='m-2' to='/about'>About</Link>
         </div>
     );
 };
