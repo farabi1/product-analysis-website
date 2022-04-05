@@ -2,10 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import useReview from '../../custom hook/useReview';
 import bannerImage from '../images/sedan.jpg'
+import Reviewitem from '../Reviews/Reviewitem';
 
 const Home = () => {
 
-    const [Reviews, setReview] = useReview();
+    const [reviews, setReview] = useReview();
 
     return (
         <>
@@ -18,14 +19,17 @@ const Home = () => {
                 </div>
                 <div className="image-section">
                     <img src={bannerImage} alt="Sedan" />
-            </div>
+                </div>
             </div>
 
             <div className="my-10">
                 <h1 className='text-6xl text-center my-12'>Customer Review (3)</h1>
 
                 <div className="">
-                    <h1 className='text-center'>Review : {Reviews.length}</h1>
+                    <h1 className='text-center'>Review : {reviews.length}</h1>
+                    {
+                        reviews.slice(0, 3).map(review => <Reviewitem></Reviewitem>)
+                    }
                 </div>
 
                 <div className=" my-20 text-center text-blue-700 text-2xl">
