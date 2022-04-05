@@ -13,8 +13,11 @@ const Home = () => {
             <div className='my-10 mx-5 grid grid-cols-2'>
                 <div className="text-section flex justify-center items-center">
                     <div className=" my-auto">
-                        <div className='text-6xl my-5'>Buy Your Dream Car</div>
+                        <div className='text-6xl my-5'>Buy Your <span className='text-blue-700'>Dream</span> Car</div>
                         <div className='text-3xl my-5'>Choose Your car from our amazing Collection</div>
+                        <div className="text-white text-2xl ">
+                            <Link className='m-2 bg-emerald-600 px-3 py-1 rounded-md hover:text-white hover:bg-blue-600 ' to='/about'>Explore About Us</Link>
+                        </div>
                     </div>
                 </div>
                 <div className="image-section">
@@ -32,8 +35,8 @@ const Home = () => {
                     }
                 </div>
 
-                <div className=" my-20 text-center text-blue-700 text-2xl">
-                    <Link className='m-2' to='/reviews'>See All Reviews</Link>
+                <div className=" my-20 text-center text-white text-2xl ">
+                    <Link className='m-2 bg-emerald-600 p-3 rounded-md hover:text-white hover:bg-blue-600 ' to='/reviews'>See All Reviews</Link>
                 </div>
             </div>
         </>
