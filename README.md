@@ -1,6 +1,6 @@
 # FR Car Review
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with tailwind [FR Car Review](https://polite-kitsune-3a73be.netlify.app/).
 
 ## Available Scripts
 
