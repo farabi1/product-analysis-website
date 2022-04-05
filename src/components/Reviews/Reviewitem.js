@@ -1,9 +1,15 @@
 import React from 'react';
+import './Reviewitem.css'
 
-const Reviewitem = () => {
+const Reviewitem = (props) => {
+   const {name,img,text,rate}=props.review;
     return (
-        <div>
-            <h1>Review Item</h1>
+        <div className='reviewitem'>
+            <img src={img} alt="" />
+            <h1>{name}</h1>
+            <h1>{text}</h1>
+            <h1>{rate}</h1>
+           
         </div>
     );
 };

@@ -7,10 +7,9 @@ const Reviews = () => {
     const [reviews, setReview] = useReview();
 
     return (
-        <div>
-            <h1>This is reviews page : {reviews.length}</h1>
+        <div className='grid grid-cols-3 ml-16'>
             {
-                reviews.map(review => <Reviewitem></Reviewitem>)
+                reviews.map(review => <Reviewitem key={review.id} review={review}></Reviewitem>)
             }
         </div>
     );
