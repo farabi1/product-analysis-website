@@ -16,7 +16,7 @@ const Home = () => {
                         <div className='text-6xl my-5'>Buy Your <span className='text-blue-700'>Dream</span> Car</div>
                         <div className='text-3xl my-5'>Choose Your car from our amazing Collection</div>
                         <div className="text-white text-2xl ">
-                            <Link className='m-2 bg-emerald-600 px-3 py-1 rounded-md hover:text-white hover:bg-blue-600 ' to='/about'>Explore About Us</Link>
+                            <Link className='bg-emerald-600 px-3 py-1 rounded-md hover:text-white hover:bg-blue-600 ' to='/about'>Explore About Us</Link>
                         </div>
                     </div>
                 </div>
