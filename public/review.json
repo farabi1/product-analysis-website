@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "img": "https://img.freepik.com/free-photo/headlights-new-red-car-car-dealership_146671-14964.jpg?w=1380&t=st=1648284680~exp=1648285280~hmac=42f55487a6a2eabca6f46ece209c76afeaca8b7a73d023fb06ee87acd95238bc",
+        "name": "Paul",
+        "text": "New red car best",
+        "rate": 4.8
+    },
+    {
+        "id": "2",
+        "img": "https://img.freepik.com/free-photo/silver-metallic-color-sport-sedan-road_114579-5035.jpg?t=st=1648284579~exp=1648285179~hmac=4a5369e719214f7370b6680ff0cd823387aeb3384ed225c0385a2b200288e6ae&w=1380",
+        "name": "Uday",
+        "text": "Silver metallic color sport sedan excelent",
+        "rate": 4.2
+    },
+    {
+        "id": "3",
+        "img": "https://img.freepik.com/free-photo/yellow-sport-car-with-black-autotuning-road_114579-5051.jpg?t=st=1648284579~exp=1648285179~hmac=f2cf74e11ab4deb82b28df72ef67c37186730df5d84a46be53abef604245ae2a&w=1380",
+        "name": "Ryan",
+        "text": "Yellow sport car good",
+        "rate": 5
+    },
+    {
+        "id": "4",
+        "img": "https://img.freepik.com/free-photo/red-mini-coupe-driving-highway-with-high-speed_114579-4060.jpg?t=st=1648284579~exp=1648285179~hmac=578f6e7f0d6236aa301fedf030d18a5bfc74d08cb3f2d91d3d828ed98665bf04&w=1380",
+        "name": "Aeron",
+        "text": "A red mini coupe awesome",
+        "rate": 4
+    },
+    {
+        "id": "5",
+        "img": "https://img.freepik.com/free-photo/grey-metallic-jeep-with-blue-stripe-it_114579-4080.jpg?t=st=1648284579~exp=1648285179~hmac=fb3064fd7df5a720791f6461e42ee0d044890245a80342ddefa139e4f77f9920&w=1380",
+        "name": "Michel",
+        "text": "A grey metallic jeep reliable",
+        "rate": 4.1
+    },
+    {
+        "id": "6",
+        "img": "https://img.freepik.com/free-photo/red-luxury-sedan-road_114579-5079.jpg?t=st=1648284579~exp=1648285179~hmac=05e9acf7b9c6a48b6ac0b1b1909f816dbb5b1a5110a4dfad441bd6f69d1f6b80&w=1380",
+        "name": "Harry",
+        "text": "Red luxury sedan beautiful",
+        "rate": 4.5
+    },
+    {
+        "id": "7",
+        "img": "https://img.freepik.com/free-photo/luxury-sport-car-with-xenon-lights-front-view_114579-5062.jpg?t=st=1648284579~exp=1648285179~hmac=48ff2d8d9240e9fa13388e4a2f6f370952ef44c25ae02a1b844608388c47cbfa&w=1380",
+        "name": "Christopher",
+        "text": "Luxury sport car with xenon lights glow",
+        "rate": 4.6
+    },
+    {
+        "id": "8",
+        "img": "https://img.freepik.com/free-photo/blue-sedan-car-driving-road-cloudy-weather_114579-4053.jpg?t=st=1648284579~exp=1648285179~hmac=3cc58875e0e41d966e0433706f037c9b1b50908276955fef7b7f0c8cc72e1771&w=1380",
+        "name": "Tom",
+        "text": "A blue sedan royal",
+        "rate": 4.7
+    },
+    {
+        "id": "9",
+        "img": "https://img.freepik.com/free-photo/white-modern-sport-car-parking-road_114579-4025.jpg?t=st=1648284579~exp=1648285179~hmac=71ba7e307d4bf87f1872ebb341a5ac6da3ae2259bda076609c1184accb708367&w=1380",
+        "name": "Alex",
+        "text": "A white modern sport car player car",
+        "rate": 4.4
+    }
+]

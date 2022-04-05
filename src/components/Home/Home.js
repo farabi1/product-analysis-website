@@ -25,7 +25,7 @@ const Home = () => {
                 </div>
 
                 <div className=" my-20 text-center text-blue-700 text-2xl">
-                    <Link className='m-2' to='/reviews'>Reviews</Link>
+                    <Link className='m-2' to='/reviews'>See All Reviews</Link>
                 </div>
             </div>
         </>
