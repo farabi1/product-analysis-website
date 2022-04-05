@@ -1,8 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useReview from '../../custom hook/useReview';
 import bannerImage from '../images/sedan.jpg'
 
 const Home = () => {
+
+    const [Reviews, setReview] = useReview();
+
     return (
         <>
             <div className='my-10 mx-5 grid grid-cols-2'>
@@ -14,14 +18,14 @@ const Home = () => {
                 </div>
                 <div className="image-section">
                     <img src={bannerImage} alt="Sedan" />
-                </div>
+      npm          </div>
             </div>
 
             <div className="my-10">
                 <h1 className='text-6xl text-center my-12'>Review Section</h1>
 
                 <div className="">
-
+                    <h1 className='text-center'>Review : {Reviews.length}</h1>
                 </div>
 
                 <div className=" my-20 text-center text-blue-700 text-2xl">

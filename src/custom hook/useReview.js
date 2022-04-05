@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 
 const useReview = () => {
-    const [review, setReview] = useState([]);
+    const [reviews, setReview] = useState([]);
 
     useEffect(() => {
         fetch('review.json')
@@ -9,7 +9,7 @@ const useReview = () => {
             .then(data => setReview(data));
     }
         , []);
-    return [review, setReview]; 
+    return [reviews, setReview]; 
 }
 
 export default useReview;
