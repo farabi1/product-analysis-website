@@ -18,7 +18,7 @@ const Home = () => {
                 </div>
                 <div className="image-section">
                     <img src={bannerImage} alt="Sedan" />
-      npm          </div>
+            </div>
             </div>
 
             <div className="my-10">
